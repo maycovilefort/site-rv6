@@ -1,0 +1,567 @@
+@font-face {
+    font-family: 'Calibri';
+    src: url('../fonts/calibri.ttf');}
+
+@font-face {
+    font-family: 'Calibri Light';
+    src: url('../fonts/calibrilight.ttf');}
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../fonts/centurygothic.ttf');}
+
+.cinza{background-color: #4E4E4E;}
+.bege{background-color: #F7F7F7;}
+@media all {
+
+    .none{display: none;}
+    .grad-from-top {
+        background: red; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(#FFEBEB, #FFFFFF); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#FFEBEB, #FFFFFF); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#FFEBEB, #FFFFFF); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#FFEBEB, #FFFFFF); /* Standard syntax */}
+    .grad-from-bottom {
+        background: red; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(#FFFFFF, #FFEBEB); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#FFFFFF, #FFEBEB); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#FFFFFF, #FFEBEB); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#FFFFFF, #FFEBEB); /* Standard syntax */}
+
+    /*--Header - Inicio */
+    .header-linha{
+        padding: 5px;
+        background-color: #4E4E4E;
+        color: #A5A5A5;}
+    .header-linha #tel, .header-linha #email{
+        margin-right: 20px;}
+    .header-linha .rv6-title{
+        margin: 4px;
+        font-size: 11px;}
+    .header-linha p{
+        display: inline;}
+    .header-linha a{
+        text-decoration: none;
+        color: #fff;}
+    #logo{
+        margin-top: 16px;
+        margin-bottom: 14px;}
+    #menudiv{
+        padding: 0px !important;}
+    #menu{
+        margin-top: 5px;
+        border-color: #B45555;
+        border-width: 0px 0px 0px 0px;
+        background-color: #FFFFFF;
+        border-radius: 0px !important;}
+    .navbar-brand img {
+        margin-top:-16px;}
+    .navbar{
+        margin-bottom:0px;}
+    .nav > li > a {
+        padding: 40px 30px;
+        color: #E52129 !important;
+        font-family: Calibri;
+        font-size: 16px;
+
+        text-transform: Uppercase;
+        border-radius: 0px 0px 0px 0px;}
+    #menu-home{
+        margin-left: 40px;}
+    #menudiv #menu .nav > li > a{
+        transition: background .50s ease-in-out;
+        -moz-transition: background .50s ease-in-out;
+        -webkit-transition: background .50s ease-in-out;}
+    #menudiv #menu .nav > li > a:hover {
+        background-color: #E52129 !important;
+        color: #FFFFFF !important;}
+    #header-contato{
+        padding-top: 5px;
+        font-family: 'Calibri Light';
+        background-color: #FFEBEB;}	
+    #header-contato h5{
+        font-size: 25px !important;}
+    #header-contato h5 a{
+        text-decoration: none;
+        color: #573535 !important;}
+    #header-login input{
+        border-width: 0px 0px 3px 0px;
+        border-color: #573535;}
+    #breadcrumb{
+        background-color: #E9E9E9;
+        font-family: 'Calibri Light';}
+    #breadcrumb a{
+        text-decoration: none;
+        color: #000000;}
+    #breadcrumb-txt{
+        display: inline;}
+    #menudiv2 #menu2{
+        margin-top: 0px;
+        opacity: 0.8;}
+    #menudiv2 #menu2 .nav > li > a {
+        padding: 15px 65px;}
+    #menudiv2 #menu2 .nav > li > a{
+        transition: background .50s ease-in-out;
+        -moz-transition: background .50s ease-in-out;
+        -webkit-transition: background .50s ease-in-out;}
+    #menudiv2 #menu2 .nav > li > a:hover {
+        background-color: #E52129 !important;
+        color: #FFFFFF !important;}
+
+    .border{border-bottom: 1px solid #4E4E4E;}
+    /*--Header - Fim */
+
+
+    /*--Home - Inicio */
+    #home-banner{
+        padding: 0px !important;}
+    .centralizar{
+        text-align: center;}
+    #carousel-example-generic .carousel-inner .item .carousel-caption{
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#9C9C9C),to(rgba(80,80,80,0.2)), color-stop(.5,#333333));
+        background-image: -moz-linear-gradient(rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0) 95%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B45555FF, endColorstr=#B45555FF);
+        -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B45555FF, endColorstr=#B45555FF);
+        font-family: 'Century Gothic';}
+    #carousel-example-generic .carousel-inner .item .carousel-caption h3{
+        margin-top: -10px;}
+    .carousel-control.left {
+        background-image: none;
+        filter: none;}
+    .carousel-control.right {
+        background-image: none;
+        filter: none;}
+    .thumbnail{
+        border: 1px solid #FFCCCC;
+        font-family: 'Calibri Light';}
+    .home-servicos{
+        margin-top: 30px;}
+
+}
+
+.home-servicos h1{
+    font-style: italic; font-size: 1.7em;}
+
+.home-otimizacao{
+    padding: 50px 0;
+    font-family: 'Calibri Light';
+
+}
+
+.home-titulo-otimizacao{
+    padding-bottom: 20px;
+    margin-top: 70px;
+    font-family: Calibri;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid; 
+    border-color: #CC7676;}
+
+.home-otimizacao img{margin-top: 30px;}
+.home-otimizacao p{font-size: 1.3em;
+                   font-style: italic;
+}
+.home-projetos{
+    padding: 50px 0;
+    font-family: 'Calibri Light';}
+.home-projetos-header{
+
+    font-family: Calibri;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid; 
+    border-color: #CC7676;}
+.home-projetos-header a{
+    padding: 3px;
+    text-decoration: none;
+    color: #B45555;
+    border: solid 1px #B45555;}
+.home-blog-orcamento{
+    margin-top: 20px;
+    margin-bottom: 70px;}
+.home-blog-orcamento h1{
+    padding-bottom: 20px;
+    font-family: Calibri;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid; 
+    border-color: #CC7676;}
+.home-blog-header{
+    margin-top: 60px;
+    margin-bottom: 40px;}
+.home-blog-header{
+    font-size: 17px;
+    font-family: 'Calibri Light';}
+.home-noticia-blog{
+    margin-top: 20px;
+    border-width: 0px 0px 0px 13px;
+    border-style: solid; 
+    border-color: #CC7676;}
+.home-noticia-blog h1{
+    font-size: 1.7em;}
+.home-titulo-noticia-blog{
+    margin-top: 0px;
+    font-family: Calibri;}
+.home-noticia-blog p{
+    font-family: 'Calibri Light';
+}
+.home-noticia-blog a{
+    padding: 3px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #B45555;
+    border: solid 1px #B45555;}
+.home-orcamento-header{
+    margin-top: 60px;
+    margin-bottom: 40px;}
+.orcamento input{
+    padding: 20px;
+    border-width: 0.1px 2px 2px 0.1px;
+    border-color: #B45555;}
+.orcamento .input-group-addon{
+    background: transparent;
+    border: none;
+    color: #B45555;}
+/*--Home - Fim */
+
+
+/*--Empresa - Inicio */
+.empresa h1{
+    font-family: Calibri;
+    padding-bottom: 20px;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid; 
+    border-color: #CC7676;}
+.empresa img{
+    margin-top: 35px;}
+.empresa p{
+    font-size: 17px;
+    font-family: 'Calibri Light';}
+.empresa-texto{
+    margin-top: 50px;}
+
+.empresa-diferenciais{
+    margin-top: 90px;
+    margin-bottom: 10px;}
+.empresa-diferenciais h1{
+    font-family: Calibri;}
+
+.empresa-diferenciais p{
+    font-family: 'Calibri Light';
+    font-size: 15px;}
+
+.empresa-diferenciais img{
+    width: 90px;
+    height: 90px;
+    font-size: 15px;}
+
+.empresa-equipe{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 60px;
+    background-color: #4E4E4E;
+    color: #FFFFFF;}
+
+.empresa-equipe h1{
+    font-size: 1.7em;
+    font-family: 'Calibri Light';
+    border-width: 0px 0px 1px 0px;
+    border-style: solid; 
+    border-color: #FFFFFF;}
+
+.empresa-equipe p{
+    font-family: 'Calibri Light';}
+
+.empresa-equipe img{
+    padding: 50px;}
+/*--Empresa - Fim */
+
+
+/*--Serviços - Inicio */
+.title_servicos h1{
+    font-family: Calibri;
+    padding-bottom: 20px;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid; 
+    border-color: #CC7676;}
+
+.servicos h1{
+    font-family: Calibri;
+    font-size: 2em;}
+
+.servicos p{
+    font-family: 'Calibri Light';
+    margin: 30px 0 0 0;}
+
+.servicos article img{
+    margin-top: 30px;
+    min-width: 100px;
+    max-width: 100px;}
+
+.servicos article a {
+    padding: 4px;
+    text-decoration: none;
+    color: #B45555;
+    border: solid 1px #B45555;
+    display: block;
+    margin: 20px 0 40px 0;}
+
+.servicos section{
+    margin-top: 20px;
+    margin-bottom: 80px;}
+
+/* ---------------------------------------------------------------------- */
+
+.porquerv6{
+    padding: 30px 0;
+}
+.porquerv6 h1{
+    font-family: Calibri;
+    font-size: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+.porquerv6 article{
+    margin-top: 20px;}
+.porquerv6 article h1{
+    font-size: 1.7em;
+    font-style: italic;
+    color: #fff;
+    font-family: 'Calibri Light';}
+.porquerv6 img{
+    max-width: 60px;
+    min-width: 60px;
+}
+/*--Serviços - Fim */
+
+
+/*--Clientes - Inicio */
+.clientes h1{
+    font-family: Calibri;
+    padding-bottom: 20px;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid; 
+    border-color: #CC7676;}
+
+.clientes{
+    margin-bottom: 80px;}
+.clientes article{
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    padding: 40px;
+
+}
+.clientes img{
+    margin: auto;
+    padding: auto
+}
+
+/*--Clientes - Fim
+
+
+/*--Blog - Inicio */
+.blog{
+    margin-bottom: 80px;}
+.blog h1{
+    font-family: Calibri;
+    padding-bottom: 20px;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid; 
+    border-color: #CC7676;}
+.blog header p{
+    font-family: 'Calibri Light';
+    font-size: 20px;}
+.blog .row{
+    margin-top: 40px;}
+.blog .row .col-md-3{
+    border-width: 0px 0px 0px 25px;
+    border-style: solid; 
+    border-color: #CC7676;}
+.blog .row h4{
+    font-size: 23px;}
+.blog .row p{
+    font-family: 'Calibri Light';
+    font-size: 15px;}
+.blog .row a{
+    padding: 3px;
+    text-decoration: none;
+    color: #B45555;
+    border: solid 1px #B45555;}
+/*--Blog - Fim */
+
+
+/*--Contato - Inicio */
+.contatopage{
+    margin-bottom: 80px;}
+.contatopage h1{
+    font-family: Calibri;
+    padding-bottom: 20px;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid; 
+    border-color: #CC7676;}
+.contatopage p{
+    font-family: 'Calibri Light';
+    font-size: 22px;}
+.contatopage .glyphicon{
+    font-size: 20px;}
+.contatopage a{
+    text-decoration: none;
+    color: #333;}
+.contatopage .formulario{
+  font-size: 1.2em;
+  font-style: italic;
+    }
+.contatopage button{
+    float: right;
+    font-style: italic;
+    }
+.contatopage p{
+   margin-top: 10px;
+   font-style: italic;
+    }
+.contatopage .input-group-addon{
+    background: transparent;
+    border: none;
+    color: #B45555;}
+.contatopage textarea{
+  }
+  
+  .contatopage .margin{
+      margin-top: 60px;
+  }
+/*--Contato - Fim */
+
+
+/*--Rodapé - Inicio*/
+footer{
+    background-color: #232323;}
+.menu-rodape{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;}
+.menu-rodape li{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 3%;
+    margin-right: 3%;}
+.menu-rodape li a{
+    color: #FFFFFF; /*2D2D2E*/
+    font-family: Calibri;
+    text-decoration: none;
+    -webkit-transition: padding 2s; /* Safari */
+    transition: padding 0.5s;}
+.menu-rodape li a:hover{
+    padding: 10px; 
+    background-color: #FFFFFF;
+    color: #B45555;}
+.contato{
+    margin-bottom: 20px;
+    color: #FFFFFF; /*242424*/
+    font-family: 'Calibri Light';}
+.newslater{
+    margin-top: -25px;}
+.newslater-input{
+    color: #FFFFFF;
+    background: transparent;}
+/*
+.rv6{padding: 10px;}
+.rv6 p{ color: #ccc}*/
+
+
+/*--Rodapé - Fim*/
+
+
+
+@media screen and (max-width: 1262px){
+
+    #menudiv2 #menu2 .nav > li > a {
+        padding: 15px 50px;}
+
+}
+@media screen and (max-width: 1202px){
+
+    #menudiv #menu .nav > li > a {
+        padding: 40px 20px;
+
+    }
+    @media screen and (max-width: 1082px){
+
+        #menudiv2 #menu2 .nav > li > a {
+            padding: 15px 40px;}
+
+    }
+    @media screen and (max-width: 1022px){
+
+        #menu-home{
+            margin-left: 0px;}
+        #menudiv #menu .nav > li > a {
+            padding: 40px 15px;
+
+        }
+        @media screen and (max-width: 991px){
+
+            #menudiv #menu .nav > li > a {
+                padding: 40px 40px;
+
+            }
+            @media screen and (max-width: 923px){
+
+                #menudiv2 #menu2 .nav > li > a {
+                    padding: 15px 35px;}
+
+            }
+            @media screen and (max-width: 897px){
+
+                #menudiv #menu .nav > li > a {
+                    padding: 40px 28px;
+
+                }
+                @media screen and (max-width: 863px){
+
+                    #menudiv2 #menu2 .nav > li > a {
+                        padding: 15px 25px;}
+
+                }
+                @media screen and (max-width: 767px){
+
+                    /*--Header - Inicio */
+                    #menu-home{
+                        margin-left: 0px;}
+                    #menudiv #menu .nav > li > a {
+                        text-align: center;
+                        padding:15px 75px;}
+                    .nav > li {
+                        border-width: 0px 0px 3px 0px;
+                        border-color: #FFCCCC;
+                        border-style: solid;}
+                    .navbar-default .navbar-toggle {
+                        border-color: transparent;}
+                    .navbar-default .navbar-toggle .icon-bar {
+                        background-color: #FF0000;}
+                    #menudiv2 #menu2 .nav > li > a {
+                        text-align: center;}
+                    .rv6-title{
+                        text-align: center;}
+                    /*--Header - Fim */
+
+
+                    /*--Home - Inicio */
+                    .home-titulo-noticia-blog{
+                        margin-top: 10px;}
+                    .home-projetos-header a{
+                        display: block;}
+                    /*--Home - Fim */
+
+
+                    /*--Serviços - Inicio */
+                    .porquerv6 article h3{
+                        text-align: center;}
+                    /*--Serviços - Fim*/
+
+
+
+                }
+                @media screen and (max-width: 560px){
+
+                    /*--Home - Inicio */
+                    #carousel-example-generic .carousel-inner .item .carousel-caption p{
+                        display: none;}
+                    /*--Home - Fim */
+
+                }
